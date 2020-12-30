@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<div class="panel" id="panelCrudContactoIndex">
+
+    <div class="panel-body" id="tabla_contactos">
+        <button type="button" class="btn btn-primary" id="btnNuevoContacto" >NUEVO CONTACTO</button>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre Contacto</th>
+                    <th>Departamento</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>        
+    </div>
+</div>
+<div  id="panelCrudContactohtml">
+
+</div>
+
+@section scripts {
+    <script>
+        function obtenerListaContacto() {
+            $('#tabla_contactos tbody').html('');
+            $.post('ObtenerListaContacto', function (data) {
+                if (data.estado === true) {
+
+                    var direccion = '<tr><td colspan="2">Orden</td><td colspan="2">Direccion</td></tr>'
+
+
+                    $.each(data.data, function (i, fila) {
+                        $.each(fila.Direcciones, function (id, filad) {
+
+                            direccion += '<tr><td colspan="2">' + (id + 1) + '</td><td colspan="2">' + filad.Direccion + '</td></tr>';
+
+                        });
+
+                        $('#tabla_contactos tbody').append('<tr>' +
+                        '<td>' + fila.IdContacto + '</td>' +
+                        '<td>' + fila.NombreContacto + '</td>' +
+                        '<td>' + fila.NombreDepartamento + '</td>' +
+                        '<td>' +
+                          '<button class="btn btn-danger eliminar" data-id=' + fila.IdContacto + ' >Eliminar</button>' +
+                          '<button class="btn btn-success actualizar" data-id=' + fila.IdContacto + ' >Actualizar</button>' +
+                        '</td>' +
+                        direccion +
+                        '</tr>');
+                        direccion = '';
+
+                    });
+                } else {
+                    alert(data.mensajeerror);
+                }
+            });
+        }
+    </script>
+<script src="~/scripts/Contactos/ContactosIndex.js"></script>
+ }

@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="panel" id="panelCrudDepartamentoIndex">
+
+    <div class="panel-body" id="tabla_departamento">
+        <button type="button" class="btn btn-primary" id="btnNuevoDepartamento">NUEVO DEPARTAMENTO</button>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre Departamento</th> 
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<div id="panelCrudDepartamentohtml">
+
+</div>
+
+@section scripts {
+    <script>
+        function obtenerListaDepartamento() {
+            $('#tabla_departamento tbody').html('');
+            $.post('ObtenerDepartamento', function (data) {
+                if (data.estado === true) { 
+                    $.each(data.data, function (i, fila) {
+                        
+
+                        $('#tabla_departamento tbody').append('<tr>' +
+                        '<td>' + fila.IdDepartamento + '</td>' +
+                        '<td>' + fila.NombreDepartamento + '</td>' +
+                        '<td>' +
+                          '<button class="btn btn-danger eliminar" data-id=' + fila.IdDepartamento + ' >Eliminar</button>' +
+                          '<button class="btn btn-success actualizar" data-id=' + fila.IdDepartamento + ' >Actualizar</button>' +
+                        '</td>' + 
+                        '</tr>');
+
+                    });
+                } else {
+                    alert(data.mensajeerror);
+                }
+            });
+        }
+    </script>
+    
+<script src="~/scripts/Departamentos/DepartamentosIndex.js"></script>
+}

@@ -1,0 +1,14 @@
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\Repositorio.dll.config
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\Repositorio.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\Repositorio.pdb
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\EntityFramework.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\EntityFramework.xml
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\obj\Debug\Repositorio.csprojResolveAssemblyReference.cache
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\obj\Debug\Repositorio.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\obj\Debug\Repositorio.pdb
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\Datos.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\Modelos.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\Datos.pdb
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Repositorio\bin\Debug\Modelos.pdb

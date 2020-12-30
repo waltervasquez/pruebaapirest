@@ -1,0 +1,14 @@
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\bin\Debug\Datos.dll.config
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\bin\Debug\Datos.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\bin\Debug\Datos.pdb
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\bin\Debug\EntityFramework.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\bin\Debug\EntityFramework.xml
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\obj\Debug\Datos.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\obj\Debug\Datos.pdb
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\bin\Debug\Modelos.dll
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\bin\Debug\Modelos.pdb
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\obj\Debug\Datos.Migrations.migracion.resources
+c:\users\walter.vasquez\documents\visual studio 2015\Projects\WebExamenAxxy\Datos\obj\Debug\Datos.csproj.GenerateResource.Cache

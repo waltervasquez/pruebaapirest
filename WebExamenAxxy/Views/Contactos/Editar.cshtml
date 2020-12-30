@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Crear";
+    Layout = null;
+}
+
+<div class="panel">
+
+    <div class="panel-body" id="tabla_contactos">
+        <form>
+            <div class="form-group">
+                <label for="nombreContacto">Nombre Contacto</label>
+                <input type="text" class="form-control" id="nombreContacto" placeholder="Nombre Contacto">
+
+            </div>
+            <div class="form-group">
+                <label for="departamentoContacto">Departamento Contacto</label>
+                <select id="departamentoContacto" class="form-control"></select>
+            </div>
+            <div class="form-group">
+                <label for="btnAgregarDireccion">Agregar Direccion</label>
+                <button type="button" id="btnAgregarDireccion" class="btn btn-success">Agregar Direccion</button>
+            </div>
+            <div class="form-group">
+                <label for="departamentoContacto">Departamento Contacto</label>
+                <table class="table table-bordered" id="tabla_direccioness">
+                    <thead>
+                        <tr>
+                            <th>Direccion</th>
+                            <th>Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <button type="button" class="btn btn-default" id="btnRegresar">
+                Regresar
+            </button>
+            <button type="button" class="btn btn-primary" id="btnGuardar">
+                Guardar
+            </button>
+        </form>
+    </div>
+</div>
+
+<script src="~/scripts/Contactos/ContactosEditar.js"></script>
